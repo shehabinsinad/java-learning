@@ -1,3 +1,15 @@
+// Question:
+//
+// Write a Student Grade Tracker:
+//
+// - Create an array of student names.
+// - Create an array of marks.
+// - Create a Student class with name and mark fields.
+// - Write a method that finds the highest mark.
+// - Write a method that calculates the average mark.
+// - Create an array of Student objects.
+// - Print whether each student has Passed or Failed.
+
 class Student {
     String name;
     int mark;
@@ -34,8 +46,8 @@ public class StudentGradeTracker {
 
     public static void main(String[] args) {
 
-        String[] names = {"John", "Jacob", "David", "Bob", "Alaska"};
-        int[] marks = {85, 42, 67, 30, 99};
+        String[] names = {"Alice", "Bob", "Charlie", "David", "Eva"};
+        int[] marks = {85, 42, 67, 30, 91};
 
         Student[] students = new Student[names.length];
 

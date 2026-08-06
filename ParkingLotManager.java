@@ -1,3 +1,16 @@
+// Question:
+//
+// Write a Parking Lot Manager:
+//
+// - Create a Car class with carNumber and hoursParked fields.
+// - Store details of 5 cars.
+// - Write a method to calculate the parking fee
+//   (₹30 per hour).
+// - Write a method to find the car that stayed
+//   the longest.
+// - Print the parking fee for each car.
+// - Print the longest parked car.
+
 class Car {
     String carNumber;
     int hoursParked;

@@ -1,3 +1,16 @@
+// Question:
+//
+// Write a Library Book Tracker:
+//
+// - Create an array of book titles.
+// - Create an array of the number of times each book has been borrowed.
+// - Create a Book class with title and borrowCount fields.
+// - Write a method that finds the most borrowed book.
+// - Write a method that calculates the total number of borrows.
+// - Create an array of Book objects.
+// - Print whether each book is Popular (borrowed 10 or more times)
+//   or Less Popular.
+
 class Book {
     String title;
     int borrowCount;
@@ -35,11 +48,11 @@ public class LibraryBookTracker {
     public static void main(String[] args) {
 
         String[] titles = {
-                "Java Basics",
-                "Python Guide",
-                "Data Structures",
-                "Algorithms",
-                "Database Systems"
+            "Java Basics",
+            "Python Guide",
+            "Data Structures",
+            "Algorithms",
+            "Database Systems"
         };
 
         int[] borrows = {12, 7, 15, 5, 10};
